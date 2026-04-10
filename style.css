@@ -32,9 +32,14 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.contact-container {
+.contact-container, .disqus-container {
     width: 100%;
     max-width: 400px;
+}
+
+.disqus-container {
+    max-width: 800px;
+    margin-bottom: 40px;
 }
 
 #contact-form {
